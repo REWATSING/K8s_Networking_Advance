@@ -15,5 +15,7 @@ spec:
       containers:
         - name: users-api
           image: vishnu420/kub-network:users-api
+        - name: auth
+          image: vishnu420/kub-network:auth-api
 
     
