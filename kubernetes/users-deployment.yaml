@@ -18,7 +18,3 @@ spec:
           env:
             - name: AUTH_ADDRESS
               value: localhost   
-        - name: auth
-          image: vishnu420/kub-network:auth-api
-
-    
