@@ -1,21 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: users-deployment
+  name: tasks-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: users-api
+      app: tasks-api
   template:
     metadata:
       labels:
-        app: users-api
+        app: tasks-api
     spec:
       containers:
-        - name: users-api
-          image: vishnu420/kub-network:users-api
+        - name: tasks
+          image: vishnu420/kub-network:tasks-api2
           env:
             - name: AUTH_ADDRESS
               # value: 10.109.23.176   
               value: auth-service.default
+            - name: TASKS_FOLDER
+              value: tasks
