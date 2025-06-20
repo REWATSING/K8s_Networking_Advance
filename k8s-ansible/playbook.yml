@@ -1,0 +1,11 @@
+- name: Kubernetes Master Setup
+  hosts: masters
+  become: true
+  roles:
+    - k8s_master
+
+- name: Kubernetes Worker Join
+  hosts: workers
+  become: true
+  roles:
+    - k8s_worker
