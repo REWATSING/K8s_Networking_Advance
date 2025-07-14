@@ -1,7 +1,3 @@
-Here's a clean, copy-paste-ready `README.md` file for your project:
-
----
-
 ```markdown
 # 🚀 3-Node Kubernetes Cluster on AWS with Calico (BGP) using Terraform & Ansible
 
@@ -175,12 +171,4 @@ terraform destroy
 * Integrate with EKS and use Calico in managed Kubernetes
 * Add Helm support and deploy sample apps
 
-```
-
----
-
-Let me know if you want to:
-- Add a badge (e.g., Terraform/AWS/Ansible versions)
-- Automatically generate `inventory.ini` from Terraform outputs
-- Split setup into modules or include cloud-init/bootstrap script
 ```
