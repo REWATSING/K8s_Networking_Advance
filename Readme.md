@@ -1,5 +1,3 @@
-Here's a clean, copy-paste-ready `README.md` file for your project:
-
 ---
 
 ```markdown
