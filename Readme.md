@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
----
-
->>>>>>> 919dae1b4a86da7675ddbbebf11f1250532e6674
 ```markdown
 # 🚀 3-Node Kubernetes Cluster on AWS with Calico (BGP) using Terraform & Ansible
 
