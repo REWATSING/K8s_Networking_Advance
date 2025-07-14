@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+---
+
+>>>>>>> 919dae1b4a86da7675ddbbebf11f1250532e6674
 ```markdown
 # 🚀 3-Node Kubernetes Cluster on AWS with Calico (BGP) using Terraform & Ansible
 
@@ -156,19 +161,3 @@ terraform destroy
 * [Calico BGP Docs](https://docs.tigera.io/calico/latest/networking/bgp/bgp)
 
 ---
-
-## 👨‍💻 Author
-
-**Vishnu Das** — DevOps Engineer
-📧 [your-email@example.com](mailto:your-email@example.com)
-🔗 GitHub: [github.com/yourusername](https://github.com/yourusername)
-
----
-
-## 🏁 Next Steps
-
-* Add external BGP peering (FRRouting or physical router)
-* Integrate with EKS and use Calico in managed Kubernetes
-* Add Helm support and deploy sample apps
-
-```
